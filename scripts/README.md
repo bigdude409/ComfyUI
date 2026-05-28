@@ -29,7 +29,8 @@ downloads via `comfy-cli`, and skips files already on disk.
 ```
 
 **Curated set:** Flux.1-dev (full), Qwen-Image (+8-step Lightning), SDXL base 1.0,
-WAN 2.2 14B (t2v + i2v), **LTX 2.3 NVFP4**, and SeedVR2 7B (fp16 + fp8) weights.
+WAN 2.2 14B (t2v + i2v), **LTX 2.3 NVFP4**, **Flux.2-dev NVFP4** (+ FP4 text encoder
++ flux2-vae), and SeedVR2 7B (fp16 + fp8) weights.
 
 **HuggingFace auth** (required for gated repos like Flux.1-dev): run `hf auth login`
 once, or `export HF_TOKEN=hf_xxx`. The token is detected automatically.

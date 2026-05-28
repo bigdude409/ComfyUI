@@ -105,6 +105,13 @@ checkpoints ltx-2.3-22b-dev-nvfp4.safetensors https://huggingface.co/Lightricks/
 loras ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors https://huggingface.co/Comfy-Org/ltx-2.3/resolve/main/split_files/loras/ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors
 loras gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/loras/gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors
 latent_upscale_models ltx-2.3-spatial-upscaler-x2-1.1.safetensors https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors
+# --- Flux.2-dev (NVFP4 — native Blackwell FP4) ---
+diffusion_models flux2-dev-nvfp4.safetensors https://huggingface.co/black-forest-labs/FLUX.2-dev-nvfp4/resolve/main/flux2-dev-nvfp4.safetensors
+text_encoders mistral_3_small_flux2_fp4_mixed.safetensors https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_fp4_mixed.safetensors
+vae flux2-vae.safetensors https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/vae/flux2-vae.safetensors
+# --- Flux.2-dev (fp8 mixed — Blackwell fp8 tensor cores, stable fallback for NVFP4 quirks) ---
+diffusion_models flux2_dev_fp8mixed.safetensors https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors
+text_encoders mistral_3_small_flux2_fp8.safetensors https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_fp8.safetensors
 # --- SeedVR2 (weights for the SeedVR2 custom node; -> models/seedvr2/) ---
 seedvr2 seedvr2_ema_7b_fp16.safetensors https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp16.safetensors
 seedvr2 seedvr2_ema_7b_fp8_e4m3fn.safetensors https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp8_e4m3fn.safetensors
