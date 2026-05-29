@@ -118,6 +118,8 @@ text_encoders mistral_3_small_flux2_fp8.safetensors https://huggingface.co/Comfy
 text_encoders mistral_3_small_flux2_bf16.safetensors https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_bf16.safetensors
 vae full_encoder_small_decoder.safetensors https://huggingface.co/black-forest-labs/FLUX.2-small-decoder/resolve/main/full_encoder_small_decoder.safetensors
 loras Flux_2-Turbo-LoRA_comfyui.safetensors https://huggingface.co/ByteZSzn/Flux.2-Turbo-ComfyUI/resolve/main/Flux_2-Turbo-LoRA_comfyui.safetensors
+# --- Gemma 4 text encoder (used by additional templates that prompt via Gemma 4) ---
+text_encoders gemma4_e4b_it_fp8_scaled.safetensors https://huggingface.co/Comfy-Org/gemma-4/resolve/main/text_encoders/gemma4_e4b_it_fp8_scaled.safetensors
 # --- SeedVR2 (weights for the SeedVR2 custom node; -> models/seedvr2/) ---
 seedvr2 seedvr2_ema_7b_fp16.safetensors https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp16.safetensors
 seedvr2 seedvr2_ema_7b_fp8_e4m3fn.safetensors https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_7b_fp8_e4m3fn.safetensors
